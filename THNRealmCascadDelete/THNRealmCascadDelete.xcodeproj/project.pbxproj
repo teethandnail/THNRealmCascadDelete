@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0868A0E4A2E42FD9FC4CFE29 /* libPods-THNRealmCascadDelete.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA432CA62BFDBE4FC9B7E96 /* libPods-THNRealmCascadDelete.a */; };
+		12E2513B1E8CEDF500A33AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2513A1E8CEDF500A33AE9 /* main.m */; };
+		12E2513E1E8CEDF500A33AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2513D1E8CEDF500A33AE9 /* AppDelegate.m */; };
+		12E251411E8CEDF500A33AE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E251401E8CEDF500A33AE9 /* ViewController.m */; };
+		12E251441E8CEDF500A33AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E251421E8CEDF500A33AE9 /* Main.storyboard */; };
+		12E251461E8CEDF500A33AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E251451E8CEDF500A33AE9 /* Assets.xcassets */; };
+		12E251491E8CEDF500A33AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E251471E8CEDF500A33AE9 /* LaunchScreen.storyboard */; };
+		12E251531E8CEEBF00A33AE9 /* THNRlmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */; };
+		12E2515F1E8CEEC500A33AE9 /* THNRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E251561E8CEEC500A33AE9 /* THNRealm.m */; };
+		12E251611E8CEEC500A33AE9 /* THNRlmDiscountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515A1E8CEEC500A33AE9 /* THNRlmDiscountModel.m */; };
+		12E251621E8CEEC500A33AE9 /* THNRlmOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515C1E8CEEC500A33AE9 /* THNRlmOrderModel.m */; };
+		12E251631E8CEEC500A33AE9 /* THNRlmTicketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515E1E8CEEC500A33AE9 /* THNRlmTicketModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12E251361E8CEDF500A33AE9 /* THNRealmCascadDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THNRealmCascadDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E2513A1E8CEDF500A33AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E2513C1E8CEDF500A33AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12E2513D1E8CEDF500A33AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12E2513F1E8CEDF500A33AE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12E251401E8CEDF500A33AE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12E251431E8CEDF500A33AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E251451E8CEDF500A33AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E251481E8CEDF500A33AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E2514A1E8CEDF500A33AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E251511E8CEEBF00A33AE9 /* THNRlmUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmUtility.h; sourceTree = "<group>"; };
+		12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmUtility.m; sourceTree = "<group>"; };
+		12E251551E8CEEC500A33AE9 /* THNRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRealm.h; sourceTree = "<group>"; };
+		12E251561E8CEEC500A33AE9 /* THNRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRealm.m; sourceTree = "<group>"; };
+		12E251591E8CEEC500A33AE9 /* THNRlmDiscountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmDiscountModel.h; sourceTree = "<group>"; };
+		12E2515A1E8CEEC500A33AE9 /* THNRlmDiscountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmDiscountModel.m; sourceTree = "<group>"; };
+		12E2515B1E8CEEC500A33AE9 /* THNRlmOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmOrderModel.h; sourceTree = "<group>"; };
+		12E2515C1E8CEEC500A33AE9 /* THNRlmOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmOrderModel.m; sourceTree = "<group>"; };
+		12E2515D1E8CEEC500A33AE9 /* THNRlmTicketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmTicketModel.h; sourceTree = "<group>"; };
+		12E2515E1E8CEEC500A33AE9 /* THNRlmTicketModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmTicketModel.m; sourceTree = "<group>"; };
+		5BA432CA62BFDBE4FC9B7E96 /* libPods-THNRealmCascadDelete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THNRealmCascadDelete.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70958F104A3CF531A7B4CDEB /* Pods-THNRealmCascadDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNRealmCascadDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete.release.xcconfig"; sourceTree = "<group>"; };
+		77A4731E2C241C21E2861C53 /* Pods-THNRealmCascadDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNRealmCascadDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E251331E8CEDF500A33AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0868A0E4A2E42FD9FC4CFE29 /* libPods-THNRealmCascadDelete.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E2512D1E8CEDF400A33AE9 = {
+			isa = PBXGroup;
+			children = (
+				12E251381E8CEDF500A33AE9 /* THNRealmCascadDelete */,
+				12E251371E8CEDF500A33AE9 /* Products */,
+				3A5DF340A9C0D93B50227A43 /* Pods */,
+				DBF292F417056C99308BC8D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12E251371E8CEDF500A33AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E251361E8CEDF500A33AE9 /* THNRealmCascadDelete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E251381E8CEDF500A33AE9 /* THNRealmCascadDelete */ = {
+			isa = PBXGroup;
+			children = (
+				12E251541E8CEEC500A33AE9 /* Demo */,
+				12E251501E8CEEBF00A33AE9 /* SRC */,
+				12E2513C1E8CEDF500A33AE9 /* AppDelegate.h */,
+				12E2513D1E8CEDF500A33AE9 /* AppDelegate.m */,
+				12E2513F1E8CEDF500A33AE9 /* ViewController.h */,
+				12E251401E8CEDF500A33AE9 /* ViewController.m */,
+				12E251421E8CEDF500A33AE9 /* Main.storyboard */,
+				12E251451E8CEDF500A33AE9 /* Assets.xcassets */,
+				12E251471E8CEDF500A33AE9 /* LaunchScreen.storyboard */,
+				12E2514A1E8CEDF500A33AE9 /* Info.plist */,
+				12E251391E8CEDF500A33AE9 /* Supporting Files */,
+			);
+			path = THNRealmCascadDelete;
+			sourceTree = "<group>";
+		};
+		12E251391E8CEDF500A33AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E2513A1E8CEDF500A33AE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E251501E8CEEBF00A33AE9 /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				12E251511E8CEEBF00A33AE9 /* THNRlmUtility.h */,
+				12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */,
+			);
+			path = SRC;
+			sourceTree = "<group>";
+		};
+		12E251541E8CEEC500A33AE9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				12E251551E8CEEC500A33AE9 /* THNRealm.h */,
+				12E251561E8CEEC500A33AE9 /* THNRealm.m */,
+				12E251591E8CEEC500A33AE9 /* THNRlmDiscountModel.h */,
+				12E2515A1E8CEEC500A33AE9 /* THNRlmDiscountModel.m */,
+				12E2515B1E8CEEC500A33AE9 /* THNRlmOrderModel.h */,
+				12E2515C1E8CEEC500A33AE9 /* THNRlmOrderModel.m */,
+				12E2515D1E8CEEC500A33AE9 /* THNRlmTicketModel.h */,
+				12E2515E1E8CEEC500A33AE9 /* THNRlmTicketModel.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		3A5DF340A9C0D93B50227A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A4731E2C241C21E2861C53 /* Pods-THNRealmCascadDelete.debug.xcconfig */,
+				70958F104A3CF531A7B4CDEB /* Pods-THNRealmCascadDelete.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBF292F417056C99308BC8D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA432CA62BFDBE4FC9B7E96 /* libPods-THNRealmCascadDelete.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E251351E8CEDF500A33AE9 /* THNRealmCascadDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E2514D1E8CEDF500A33AE9 /* Build configuration list for PBXNativeTarget "THNRealmCascadDelete" */;
+			buildPhases = (
+				CA0656EACA718E77832B31AA /* [CP] Check Pods Manifest.lock */,
+				12E251321E8CEDF500A33AE9 /* Sources */,
+				12E251331E8CEDF500A33AE9 /* Frameworks */,
+				12E251341E8CEDF500A33AE9 /* Resources */,
+				99726DBF3E3DD863C567CE71 /* [CP] Embed Pods Frameworks */,
+				AB6084B0757805F291A5B19A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THNRealmCascadDelete;
+			productName = THNRealmCascadDelete;
+			productReference = 12E251361E8CEDF500A33AE9 /* THNRealmCascadDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E2512E1E8CEDF400A33AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = h.enc;
+				TargetAttributes = {
+					12E251351E8CEDF500A33AE9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6L487DE3GB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 12E251311E8CEDF400A33AE9 /* Build configuration list for PBXProject "THNRealmCascadDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E2512D1E8CEDF400A33AE9;
+			productRefGroup = 12E251371E8CEDF500A33AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E251351E8CEDF500A33AE9 /* THNRealmCascadDelete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E251341E8CEDF500A33AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E251491E8CEDF500A33AE9 /* LaunchScreen.storyboard in Resources */,
+				12E251461E8CEDF500A33AE9 /* Assets.xcassets in Resources */,
+				12E251441E8CEDF500A33AE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99726DBF3E3DD863C567CE71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6084B0757805F291A5B19A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0656EACA718E77832B31AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E251321E8CEDF500A33AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E251411E8CEDF500A33AE9 /* ViewController.m in Sources */,
+				12E2513E1E8CEDF500A33AE9 /* AppDelegate.m in Sources */,
+				12E251611E8CEEC500A33AE9 /* THNRlmDiscountModel.m in Sources */,
+				12E2513B1E8CEDF500A33AE9 /* main.m in Sources */,
+				12E251631E8CEEC500A33AE9 /* THNRlmTicketModel.m in Sources */,
+				12E251531E8CEEBF00A33AE9 /* THNRlmUtility.m in Sources */,
+				12E2515F1E8CEEC500A33AE9 /* THNRealm.m in Sources */,
+				12E251621E8CEEC500A33AE9 /* THNRlmOrderModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12E251421E8CEDF500A33AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E251431E8CEDF500A33AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E251471E8CEDF500A33AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E251481E8CEDF500A33AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E2514B1E8CEDF500A33AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12E2514C1E8CEDF500A33AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E2514E1E8CEDF500A33AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A4731E2C241C21E2861C53 /* Pods-THNRealmCascadDelete.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6L487DE3GB;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = THNRealmCascadDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.THNRealmCascadDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12E2514F1E8CEDF500A33AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70958F104A3CF531A7B4CDEB /* Pods-THNRealmCascadDelete.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6L487DE3GB;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = THNRealmCascadDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.THNRealmCascadDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E251311E8CEDF400A33AE9 /* Build configuration list for PBXProject "THNRealmCascadDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2514B1E8CEDF500A33AE9 /* Debug */,
+				12E2514C1E8CEDF500A33AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E2514D1E8CEDF500A33AE9 /* Build configuration list for PBXNativeTarget "THNRealmCascadDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2514E1E8CEDF500A33AE9 /* Debug */,
+				12E2514F1E8CEDF500A33AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E2512E1E8CEDF400A33AE9 /* Project object */;
+}
