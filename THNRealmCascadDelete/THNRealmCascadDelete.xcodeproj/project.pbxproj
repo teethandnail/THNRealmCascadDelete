@@ -14,11 +14,12 @@
 		12E251441E8CEDF500A33AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E251421E8CEDF500A33AE9 /* Main.storyboard */; };
 		12E251461E8CEDF500A33AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E251451E8CEDF500A33AE9 /* Assets.xcassets */; };
 		12E251491E8CEDF500A33AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E251471E8CEDF500A33AE9 /* LaunchScreen.storyboard */; };
-		12E251531E8CEEBF00A33AE9 /* THNRlmUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */; };
 		12E2515F1E8CEEC500A33AE9 /* THNRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E251561E8CEEC500A33AE9 /* THNRealm.m */; };
 		12E251611E8CEEC500A33AE9 /* THNRlmDiscountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515A1E8CEEC500A33AE9 /* THNRlmDiscountModel.m */; };
 		12E251621E8CEEC500A33AE9 /* THNRlmOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515C1E8CEEC500A33AE9 /* THNRlmOrderModel.m */; };
 		12E251631E8CEEC500A33AE9 /* THNRlmTicketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E2515E1E8CEEC500A33AE9 /* THNRlmTicketModel.m */; };
+		66FB6FEC1F3853C40095B32E /* THNRlmUtilityByRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FB6FEB1F3853C40095B32E /* THNRlmUtilityByRuntime.m */; };
+		66FB6FF31F385A530095B32E /* RLMRealm+DeleteByProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FB6FF21F385A530095B32E /* RLMRealm+DeleteByProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +33,6 @@
 		12E251451E8CEDF500A33AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E251481E8CEDF500A33AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E2514A1E8CEDF500A33AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12E251511E8CEEBF00A33AE9 /* THNRlmUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmUtility.h; sourceTree = "<group>"; };
-		12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmUtility.m; sourceTree = "<group>"; };
 		12E251551E8CEEC500A33AE9 /* THNRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRealm.h; sourceTree = "<group>"; };
 		12E251561E8CEEC500A33AE9 /* THNRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRealm.m; sourceTree = "<group>"; };
 		12E251591E8CEEC500A33AE9 /* THNRlmDiscountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmDiscountModel.h; sourceTree = "<group>"; };
@@ -43,6 +42,11 @@
 		12E2515D1E8CEEC500A33AE9 /* THNRlmTicketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmTicketModel.h; sourceTree = "<group>"; };
 		12E2515E1E8CEEC500A33AE9 /* THNRlmTicketModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmTicketModel.m; sourceTree = "<group>"; };
 		5BA432CA62BFDBE4FC9B7E96 /* libPods-THNRealmCascadDelete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THNRealmCascadDelete.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FB6FEA1F3853C40095B32E /* THNRlmUtilityByRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNRlmUtilityByRuntime.h; sourceTree = "<group>"; };
+		66FB6FEB1F3853C40095B32E /* THNRlmUtilityByRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNRlmUtilityByRuntime.m; sourceTree = "<group>"; };
+		66FB6FED1F3854590095B32E /* THNRlmCascadProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THNRlmCascadProtocol.h; sourceTree = "<group>"; };
+		66FB6FF11F385A530095B32E /* RLMRealm+DeleteByProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMRealm+DeleteByProtocol.h"; sourceTree = "<group>"; };
+		66FB6FF21F385A530095B32E /* RLMRealm+DeleteByProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMRealm+DeleteByProtocol.m"; sourceTree = "<group>"; };
 		70958F104A3CF531A7B4CDEB /* Pods-THNRealmCascadDelete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNRealmCascadDelete.release.xcconfig"; path = "Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete.release.xcconfig"; sourceTree = "<group>"; };
 		77A4731E2C241C21E2861C53 /* Pods-THNRealmCascadDelete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNRealmCascadDelete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THNRealmCascadDelete/Pods-THNRealmCascadDelete.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,8 +110,11 @@
 		12E251501E8CEEBF00A33AE9 /* SRC */ = {
 			isa = PBXGroup;
 			children = (
-				12E251511E8CEEBF00A33AE9 /* THNRlmUtility.h */,
-				12E251521E8CEEBF00A33AE9 /* THNRlmUtility.m */,
+				66FB6FF11F385A530095B32E /* RLMRealm+DeleteByProtocol.h */,
+				66FB6FF21F385A530095B32E /* RLMRealm+DeleteByProtocol.m */,
+				66FB6FEA1F3853C40095B32E /* THNRlmUtilityByRuntime.h */,
+				66FB6FEB1F3853C40095B32E /* THNRlmUtilityByRuntime.m */,
+				66FB6FED1F3854590095B32E /* THNRlmCascadProtocol.h */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -270,9 +277,10 @@
 				12E251411E8CEDF500A33AE9 /* ViewController.m in Sources */,
 				12E2513E1E8CEDF500A33AE9 /* AppDelegate.m in Sources */,
 				12E251611E8CEEC500A33AE9 /* THNRlmDiscountModel.m in Sources */,
+				66FB6FF31F385A530095B32E /* RLMRealm+DeleteByProtocol.m in Sources */,
 				12E2513B1E8CEDF500A33AE9 /* main.m in Sources */,
+				66FB6FEC1F3853C40095B32E /* THNRlmUtilityByRuntime.m in Sources */,
 				12E251631E8CEEC500A33AE9 /* THNRlmTicketModel.m in Sources */,
-				12E251531E8CEEBF00A33AE9 /* THNRlmUtility.m in Sources */,
 				12E2515F1E8CEEC500A33AE9 /* THNRealm.m in Sources */,
 				12E251621E8CEEC500A33AE9 /* THNRlmOrderModel.m in Sources */,
 			);
@@ -394,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6L487DE3GB;
-				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = THNRealmCascadDelete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.THNRealmCascadDelete;
@@ -408,7 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6L487DE3GB;
-				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = THNRealmCascadDelete/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.THNRealmCascadDelete;

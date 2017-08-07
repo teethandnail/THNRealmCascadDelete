@@ -27,4 +27,24 @@
 }
 
 
+#pragma mark - RlmCaseCadDelete
+
+- (void)caseCadDeleteInRealm:(RLMRealm *)realm {
+    if (self.discount && [self.discount respondsToSelector:@selector(caseCadDeleteInRealm:)]) {
+        [self.discount caseCadDeleteInRealm:realm];
+        
+        [realm deleteObject:self.discount];
+    }
+    
+    if (self.ticketArray.count) {
+        for (THNRlmTicketModel *item in self.ticketArray) {
+            if ([item respondsToSelector:@selector(caseCadDeleteInRealm:)]) {
+                [item caseCadDeleteInRealm:realm];
+            }
+        }
+        
+        [realm deleteObjects:self.ticketArray];
+    }
+}
+
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <Realm/Realm.h>
+#import "THNRlmCascadProtocol.h"
 
-@interface THNRlmTicketModel : RLMObject
+@interface THNRlmTicketModel : RLMObject <RlmCaseCadDelete>
 
 @property NSString *ticketName;
 

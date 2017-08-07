@@ -17,4 +17,9 @@
     return model;
 }
 
+#pragma mark - RlmCaseCadDelete
+
+- (void)caseCadDeleteInRealm:(RLMRealm *)realm {
+}
+
 @end

@@ -9,8 +9,9 @@
 #import <Realm/Realm.h>
 #import "THNRlmDiscountModel.h"
 #import "THNRlmTicketModel.h"
+#import "THNRlmCascadProtocol.h"
 
-@interface THNRlmOrderModel : RLMObject
+@interface THNRlmOrderModel : RLMObject <RlmCaseCadDelete>
 
 @property  NSString *orderNumber;
 
