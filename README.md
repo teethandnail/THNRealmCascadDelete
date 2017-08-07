@@ -40,7 +40,9 @@ order.privilege = RLMPrivilegeA;
 ## 功能说明
 该工程提供Realm级联删除功能，删除order时能把RLMCommodityA、RLMCommodityB、RLMPrivilegeA连带着删除。
 工程里提供了两种实现：
+
 第一种：通过runtime判断order有哪些属性是表对象，是的话递归进去先删除属性中的表实例；
+
 第二种：增加级联删除协议，所有的表都实现该删除协议，协议里的删除方法删除自身属性中的表
 
 
